@@ -1,3 +1,5 @@
+/* este programa saluda al usuario luego de digitar su nombre*/
+
 package saludo;
 public class Saludo {
  public static void saludar(String nombre){
