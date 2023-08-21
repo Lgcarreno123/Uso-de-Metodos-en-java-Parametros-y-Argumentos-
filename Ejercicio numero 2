@@ -1,0 +1,15 @@
+package suma;
+public class Suma {
+ public static int suma(int A, int B){
+ return A+B;
+ }
+ 
+public static void main(String[] args){
+ int A = 75;
+ int B = 32;
+ 
+ int resultado = suma(A,B);
+ 
+ System.out.println("La suma de " + A +" Y " + B + " es " + resultado);
+ }
+}
