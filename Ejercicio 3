@@ -1,0 +1,18 @@
+/*este codigo nos ayuda a aencontrar el area de un rectangulo*/
+
+package calculoarearectangulo;
+
+public class CalculoAreaRectangulo {
+
+    public static void main(String[] args) {
+        calcularArea(3.5,5.3);
+    }
+    
+    // Método para calcular el área de un rectángulo
+    public static void calcularArea(double base, double altura) {
+        double areaRectangulo = 0;
+        
+        areaRectangulo = base * altura;
+        System.out.println("El área del rectangulo es: " + areaRectangulo);
+ }
+}
