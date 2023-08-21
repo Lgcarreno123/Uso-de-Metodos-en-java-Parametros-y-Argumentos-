@@ -1,3 +1,5 @@
+/*este programa funciona como una calculadora que nos permite sumar dos numeros*/
+
 package suma;
 public class Suma {
  public static int suma(int A, int B){
